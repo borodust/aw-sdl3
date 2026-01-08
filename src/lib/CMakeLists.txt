@@ -39,4 +39,4 @@ target_include_directories(${TARGET}
   PRIVATE "${LIBRARY_DIR}/")
 
 target_link_libraries(${TARGET}
-  PRIVATE SDL3)
+  PRIVATE SDL3::SDL3)
